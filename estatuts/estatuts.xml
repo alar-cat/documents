@@ -1,0 +1,12 @@
+<umdoc>
+    <set name="packageVersion" value="git"/>
+    <tex>
+        \let\oldsection\section
+        \let\oldsubsection\section
+        \renewcommand{\section}[1]{\oldsection*{#1}}
+        \renewcommand{\subsection}[1]{\oldsubsection*{#1}}
+    </tex>
+    <document>
+        <md file="estatuts.md"/>
+    </document>
+</umdoc>
