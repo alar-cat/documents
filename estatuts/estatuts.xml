@@ -2,7 +2,7 @@
     <set name="packageVersion" value="git"/>
     <tex>
         \let\oldsection\section
-        \let\oldsubsection\section
+        \let\oldsubsection\subsection
         \renewcommand{\section}[1]{\oldsection*{#1}}
         \renewcommand{\subsection}[1]{\oldsubsection*{#1}}
     </tex>
